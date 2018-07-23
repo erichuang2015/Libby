@@ -1,0 +1,71 @@
+
+// Colors
+$black: black;
+$color_1: blue;
+
+
+// Screen sizes
+$xs: 350px;
+$s: 480px;
+$m: 670px;
+$l: 960px; 
+$xl: 1220px;
+
+
+// Extenders
+.relative {
+	position: relative;
+}
+
+.flex {
+	display: flex;
+	flex-flow: row wrap;
+	&.v-center {
+		align-items: center;
+	}
+	&.h-center {
+		justify-content: center;
+	}
+}
+
+// Mixins
+@mixin gutter($x) {
+	.contain {
+		padding-left: $x;
+		padding-right: $x;
+	}
+	.brand {
+		// padding-left: $x;
+	}
+	.nav-button {
+		// padding-left: $x;
+		// padding-right: $x;
+	}
+}
+
+@mixin header-size($x) {
+	.wrapper {
+		padding-top: $x;
+	}
+	.header-container {
+		height: $x;
+	}
+	.nav-button {
+		width: $x;
+		height: $x;
+		// padding-top: $x/4;
+		// padding-bottom: $x/4;
+		padding: $x/4;
+	}
+	.brand {
+		padding-left: $x/4;
+		padding-right: $x/4;
+	}
+	.header-nav {
+		height: calc(100vh - #{$x} - 1px);
+		top: calc(#{$x} + 1px);
+	}
+	.sticky.header {
+		top: -$x - 2px;
+	}
+}

@@ -1,0 +1,86 @@
+input, button {
+	border: solid 1px #999;
+	padding: 1em;
+	border-radius: 0;
+}
+
+input[type="text"] {
+	background: #ededed;
+	&:focus {
+		background: white;
+		border-color: darken($color_1, 20%);
+		box-shadow: 0 0 2px $color_1;
+	}
+}
+
+::-webkit-input-placeholder {
+	color: black;
+	opacity: 1;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+button {
+	appearance: none;
+	background: lighten($color_1, 10%);
+	color: white;
+	font-weight: 600;
+	border-color: lighten($color_1, 10%);
+	&:hover {
+		background: $color_1;
+	}
+	&:focus {
+		outline: none;
+		background: $color_1;
+		&:hover {
+			background: darken($color_1, 10%);
+		}
+	}
+}
+
+
+form.search {
+	@extend .flex;
+	max-width: 400px;
+}
+
+input[type="search"] {
+	border-color: black;
+}
+
+.search-input,
+.search-submit {
+	display: block;
+	&:focus {
+		border-color: blue;
+	}
+}
+
+.search-input {
+	width: 70%;
+	border-right: none;
+	&:focus {
+		border-right: none;
+	}
+}
+
+.search-submit {
+	width: 30%;
+	background: black;
+	border-color: black;
+	&:hover {
+		border-color: blue;
+	}
+}
+
+.search-input:focus + .search-submit {
+	background: blue;
+	border-color: blue;
+}
+
+
+
+
+

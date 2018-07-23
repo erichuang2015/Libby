@@ -1,0 +1,20 @@
+/*!
+	Theme Name: Wordpress Blank
+	Theme URI: http://natedruss.com
+	Description: Blank WordPress Theme
+	Version: 1.0
+	Author: Nate Druss
+	Author URI: http://natedruss.com
+	Tags: Blank, HTML5, CSS
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+@import 'bits';
+@import 'normalize';
+@import 'base';
+@import 'wp-core';
+@import 'main';
+@import 'typography';
+@import 'forms';
+@import 'print';

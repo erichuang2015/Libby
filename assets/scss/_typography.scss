@@ -1,0 +1,47 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	// font-family: 'Karla', 'Helvetica', sans-serif;
+	font-size: .9375em;
+	line-height: 1.66em;
+	font-weight: 400;
+	@media (min-width: $xs) {
+		font-size: 1em;
+	}
+	@media (min-width: $s) {
+		font-size: 1.05em;
+	}
+	@media (min-width: $m) {
+		font-size: 1.075em;
+	}
+	@media (min-width: $l) {
+		font-size: 1.125em;
+	}
+	@media (min-width: $xl) {
+		font-size: 1.2em;
+	}
+}
+
+%text-link > a {
+	border-bottom: solid 1px;
+	padding-bottom: 1px;
+	border-color: $color_1;
+	&:hover,
+	&:focus {
+		color: $color_1;
+	}
+}
+
+p,
+span,
+li {
+	@extend %text-link;
+}
+
+.site-title {
+	margin: 0;
+	font-size: 1em;
+	letter-spacing: .0125em;
+}

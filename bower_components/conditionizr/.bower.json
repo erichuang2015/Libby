@@ -1,0 +1,15 @@
+{
+  "name": "conditionizr",
+  "homepage": "https://github.com/conditionizr/conditionizr",
+  "version": "4.5.1",
+  "_release": "4.5.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v4.5.1",
+    "commit": "5633b8a4e04805c5ff6ca4bd55f866eb8348c4c2"
+  },
+  "_source": "https://github.com/conditionizr/conditionizr.git",
+  "_target": "^4.5.1",
+  "_originalSource": "conditionizr",
+  "_direct": true
+}
