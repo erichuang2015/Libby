@@ -7,7 +7,7 @@
 		"uuidString": "9ABF8454-BCC6-4AF2-BE24-C0F5CF6C3FC1"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitattributes": {
 		"cB": 0,
@@ -47,6 +47,7 @@
 	"\/assets\/img\/gravatar.jpg": {
 		"ft": 16384,
 		"iS": 3482,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/gravatar.jpg",
 		"oF": 0,
@@ -610,6 +611,7 @@
 	"\/bower_components\/conditionizr\/media\/conditionizr.jpg": {
 		"ft": 16384,
 		"iS": 50975,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/conditionizr\/media\/conditionizr.jpg",
 		"oF": 0,
@@ -982,6 +984,7 @@
 	"\/screenshot.jpg": {
 		"ft": 16384,
 		"iS": 228560,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/screenshot.jpg",
 		"oF": 0,
@@ -1066,9 +1069,10 @@
 	},
 "projectAttributes": {
 	"creationDate": 533937826,
-	"displayValue": "wordpress_blank_theme",
+	"displayValue": "libby",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-grumpy"
+	"iconImageName": "meme-grumpy",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2463,7 +2467,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888\/wordpress_blank",
+	"externalServerAddress": "http:\/\/localhost:8888\/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "console:write",
@@ -2871,6 +2875,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
