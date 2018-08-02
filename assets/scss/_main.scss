@@ -8,7 +8,6 @@ body {
 	width: 100%;
 }
 
-
 .contain {
 	@extend .relative;
 	max-width: 40em;
@@ -231,11 +230,10 @@ main {
 
 // Footer
 .footer {
-	padding-top: 4em;
-	padding-bottom: 4em;
+	padding-top: 2em;
+	padding-bottom: 3em;
 	background: black;
 	color: white;
-	min-height: 500px;
 }
 
 .footer p {
