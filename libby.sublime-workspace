@@ -1,0 +1,597 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"tra",
+				"translateY"
+			],
+			[
+				"focus",
+				"focusHandler"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"flex",
+				"flex-order"
+			],
+			[
+				"get",
+				"getContext"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"number",
+				"number-input"
+			],
+			[
+				"data",
+				"data-row"
+			],
+			[
+				"random",
+				"randomInt"
+			],
+			[
+				"curre",
+				"currentValue"
+			],
+			[
+				"curren",
+				"currentCol"
+			],
+			[
+				"current",
+				"currentValue"
+			],
+			[
+				"curret",
+				"currentValue"
+			],
+			[
+				"row",
+				"rowArray"
+			],
+			[
+				"area",
+				"areaRow"
+			],
+			[
+				"cell",
+				"cellArray"
+			],
+			[
+				"scroll",
+				"scrollTracker"
+			],
+			[
+				"query",
+				"querySelector"
+			],
+			[
+				"Waypo",
+				"Waypoints"
+			],
+			[
+				"waypoint",
+				"waypointFiles"
+			],
+			[
+				"require",
+				"requirejs"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"filter",
+				"filter-list"
+			],
+			[
+				"filte",
+				"filter-list"
+			],
+			[
+				"song",
+				"song_posts"
+			],
+			[
+				"the",
+				"the_title"
+			],
+			[
+				"chord",
+				"chordArray"
+			],
+			[
+				"chor",
+				"chordString"
+			],
+			[
+				"op",
+				"openChord"
+			],
+			[
+				"post",
+				"postLink"
+			],
+			[
+				"note",
+				"noteToMidi"
+			],
+			[
+				"string",
+				"string_number"
+			],
+			[
+				"standard",
+				"standard_tuning"
+			],
+			[
+				"midi",
+				"midiNote"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"tone",
+				"toneTrigger"
+			],
+			[
+				"inst",
+				"instOptions"
+			],
+			[
+				"synth",
+				"synthConfig"
+			],
+			[
+				"close",
+				"closeAllFilterWindows"
+			],
+			[
+				"filter-",
+				"filter-window"
+			],
+			[
+				"int",
+				"intro_height"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"the_post",
+				"the_post_thumbnail_url"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"art",
+				"artist_name"
+			],
+			[
+				"us",
+				"used_by"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"align",
+				"align-items: "
+			],
+			[
+				"health",
+				"healthIndicator"
+			],
+			[
+				"healt",
+				"healthChunk"
+			],
+			[
+				"fle",
+				"flex-flow: "
+			],
+			[
+				"ammo",
+				"ammoInfo"
+			],
+			[
+				"alig",
+				"align-items: "
+			],
+			[
+				"getElement",
+				"getElementsByTagName"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"proje",
+				"Project: Refresh Folders"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"them",
+				"UI: Select Color Scheme"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax java",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"ma",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"synta sc",
+				"Set Syntax: SCSS"
+			],
+			[
+				"bea",
+				"Javascript Beautify"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 430.0
+	},
+	"console":
+	{
+		"height": 614.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/nate/Sites/Libby-wp/wp-content/themes/libby",
+		"/Users/nate/Sites/Libby-wp/wp-content/themes/libby/includes"
+	],
+	"file_history":
+	[
+		"/Users/nate/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder/cloudspeech_demo.py",
+		"/Users/nate/Sites/blueprints-js/scss/style.scss",
+		"/Users/nate/Sites/blueprints-js/kit/_controls.kit",
+		"/Users/nate/Sites/blueprints-js/kit/index.kit",
+		"/Users/nate/Sites/blueprints-js/js/index.js",
+		"/Users/nate/Sites/blueprints-js/kit/_header.kit",
+		"/Users/nate/Sites/blueprints-js/kit/_footer.kit",
+		"/Users/nate/Sites/gundar17/js/source/poem.json",
+		"/Users/nate/Documents/Healthcare/Medical Mutual/med-mutual.txt",
+		"/Users/nate/Sites/Libby-wp/wp-config.php",
+		"/Users/nate/Sites/portfolio/scss/_typography.scss",
+		"/Users/nate/Sites/portfolio/img/logo-color.svg",
+		"/Users/nate/Sites/portfolio/scss/_bits.scss",
+		"/Users/nate/Sites/portfolio/scss/_global.scss",
+		"/Users/nate/Sites/portfolio/kit/partials/_header.kit",
+		"/Users/nate/Sites/portfolio/README.md",
+		"/Users/nate/Sites/portfolio/scss/_footer.scss",
+		"/Users/nate/Sites/portfolio/kit/partials/_footer.kit",
+		"/Users/nate/Sites/portfolio/scss/styles.scss",
+		"/Users/nate/Sites/portfolio/kit/index.kit",
+		"/Users/nate/Sites/portfolio/scss/_links.scss",
+		"/Users/nate/Sites/portfolio/scss/_normalize.scss",
+		"/Users/nate/Sites/portfolio/css/normalize-min.css",
+		"/Users/nate/Sites/portfolio/scss/_colors.scss",
+		"/Users/nate/Sites/portfolio/js/src/scripts.js",
+		"/Users/nate/Sites/portfolio/js/scripts.js",
+		"/Users/nate/Sites/portfolio/kit/minterviews.kit",
+		"/Users/nate/Sites/portfolio/kit/mulino.kit",
+		"/Users/nate/Sites/portfolio/kit/space.kit",
+		"/Users/nate/Sites/portfolio/kit/vcd-mag.kit",
+		"/Users/nate/Sites/portfolio/kit/404.kit",
+		"/Users/nate/Sites/portfolio/kit/creative-process.kit",
+		"/Users/nate/Sites/portfolio/kit/fruitarian.kit",
+		"/Users/nate/Sites/portfolio/kit/info.kit",
+		"/Users/nate/Sites/portfolio/kit/bistro.kit",
+		"/Users/nate/Sites/portfolio/info.html",
+		"/Users/nate/Sites/portfolio/index.html",
+		"/Users/nate/Desktop/test/test.html",
+		"/Users/nate/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 2/light_template.py",
+		"/Users/nate/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 1/light_template.py",
+		"/Users/nate/Desktop/ssh",
+		"/Users/nate/Sites/sho-co/wp-config.php",
+		"/Users/nate/Apps/vue-playground/kit/parts/_footer.kit",
+		"/Users/nate/Apps/vue-playground/kit/parts/_header.kit",
+		"/Users/nate/Apps/vue-playground/index.html",
+		"/Users/nate/Apps/vue-playground/scss/_normalize.scss",
+		"/Users/nate/Apps/vue-playground/scss/main.css",
+		"/Users/nate/Downloads/vue.js",
+		"/Users/nate/Sites/sudoku/kit/_cell-area.kit",
+		"/Users/nate/Sites/sudoku/scss/style.scss",
+		"/Users/nate/Sites/sudoku/kit/index.kit",
+		"/Users/nate/Sites/sudoku/kit/_cell.kit",
+		"/Users/nate/Documents/Healthcare/med-mutual.txt",
+		"/Users/nate/Sites/sudoku/scss/partials/_colors.scss",
+		"/Users/nate/Sites/sudoku/kit/partials/_cell-area.kit",
+		"/Users/nate/Sites/sudoku/kit/_header.kit",
+		"/Users/nate/Sites/sudoku/js/source/scripts.js",
+		"/Users/nate/Sites/sudoku/kit/_footer.kit",
+		"/Users/nate/Sites/sudoku/config.codekit3",
+		"/Users/nate/Sites/sudoku/js/source/index.js",
+		"/Users/nate/Sites/sudoku/kit/sudoku.kit",
+		"/Users/nate/Sites/sudoku/index.pug",
+		"/Users/nate/Sites/sudoku/index.html",
+		"/Users/nate/Documents/Client Work/Blanda Ortho SEO/blanda-ortho.txt",
+		"/private/etc/hosts",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/plugins/advanced-custom-fields-pro/assets/js/acf-input.js",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/assets/scss/partials/_forms.scss",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/assets/scss/partials/_post.scss",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/assets/scss/_filters.scss",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/assets/scss/_post.scss",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/assets/scss/_global.scss",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/functions.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/includes/tunings.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/sidebar.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/assets/scss/_typography.scss",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/includes/custom-post-types.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/assets/scss/_variables.scss",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/assets/scss/_sidebar.scss",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/assets/js/main.js",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/assets/scss/style.scss",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/single-songs.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/search.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/searchform.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/single.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/tag.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/style.css",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/assets/scss/main.scss",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/header.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/index.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/page-home.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/pagination.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/includes/taxonomies.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/footer.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/assets/js/require.js",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/assets/js/scripts.js",
+		"/Users/nate/Sites/SonicYouthArchive/.gitignore",
+		"/Users/nate/Sites/SonicYouthArchive/bower.json",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/includes/filter-taxonomy.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/assets/scss/_main.scss",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/loop.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/archive-song.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/assets/scss/_forms.scss",
+		"/Users/nate/Sites/SonicYouthArchive/wp-content/themes/sonicyouth/page.php",
+		"/Users/nate/Sites/SonicYouthArchive/wp-config.php",
+		"/Users/nate/Sites/wordpress_blank/wp-content/themes/wordpress_blank_theme/assets/scss/_print.scss",
+		"/Users/nate/Sites/wordpress_blank/wp-content/themes/wordpress_blank_theme/assets/scss/_wp-core.scss",
+		"/Users/nate/Sites/wordpress_blank/wp-content/themes/wordpress_blank_theme/assets/scss/_normalize.scss",
+		"/Users/nate/Sites/wordpress_blank/wp-content/themes/wordpress_blank_theme/style.css",
+		"/Users/nate/Sites/wordpress_blank/wp-content/themes/wordpress_blank_theme/config.codekit3",
+		"/Users/nate/Sites/wordpress_blank/wp-config-sample.php",
+		"/Users/nate/Sites/arcade/js/index.js",
+		"/Users/nate/Sites/geometry/css/styles.css",
+		"/Users/nate/Sites/dinosaur/package-lock.json",
+		"/Users/nate/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 1/style.css",
+		"/Users/nate/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder/page.php",
+		"/Users/nate/Sites/bechtel17/sustainability-report/kit/partials/_footer.kit",
+		"/Users/nate/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/nate/Documents/spectrum-info.txt",
+		"/Users/nate/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 47.0
+	},
+	"find_in_files":
+	{
+		"height": 133.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 47.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 142.0
+	},
+	"pinned_build_system": "",
+	"project": "libby.sublime-project",
+	"replace":
+	{
+		"height": 90.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/sublime_projects/Arcade.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

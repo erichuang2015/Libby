@@ -1,7 +1,7 @@
 
 // Header
 .header {
-	position: absolute;
+	position: sticky;
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -15,23 +15,19 @@
 	}
 }
 
-.sticky.header {
-	position: fixed;
-	transform: translateY(0);
-	
-	&.stuck,
-	&.open {
-		visibility: visible;
-		transform: translateY(100%);
-	}
-}
-
 .brand {
 	@extend .flex, .v-center;
 	height: 100%;
 	@media (min-width: $m) {
 		padding-right: 15px;
 	}
+}
+
+.site-title {
+	margin: 0;
+	font-size: 20px;
+	font-weight: normal;
+	text-transform: uppercase;
 }
 
 .nav-button {
@@ -109,14 +105,12 @@
 		display: block;
 		animation-name: nav-out;
 	}
-	&.flexbox .header.closed .header-nav {
+	.header.closed .header-nav {
 		display: flex;
 	}
 }
 
 @media (min-width: $m) {
-	.header.stuck {
-	}
 	.header-container {
 		display: flex;
 		flex-flow: row wrap;

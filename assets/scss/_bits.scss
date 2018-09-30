@@ -37,9 +37,6 @@ $xl: 1220px;
 }
 
 @mixin header-size($x) {
-	.wrapper {
-		padding-top: $x;
-	}
 	.header-container {
 		height: $x;
 	}
@@ -57,8 +54,5 @@ $xl: 1220px;
 	.header-nav {
 		height: calc(100vh - #{$x});
 		top: 0;
-	}
-	.sticky.header {
-		top: -$x;
 	}
 }

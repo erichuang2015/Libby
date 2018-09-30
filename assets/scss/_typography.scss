@@ -24,7 +24,7 @@ body {
 	}
 }
 
-%text-link > a {
+%text-link {
 	border-bottom: solid 1px;
 	padding-bottom: 1px;
 	border-color: $color_1;
@@ -37,11 +37,9 @@ body {
 p,
 span,
 li {
-	@extend %text-link;
+	& > a {
+		@extend %text-link;		
+	}
 }
 
-.site-title {
-	margin: 0;
-	font-size: 1em;
-	letter-spacing: .0125em;
-}
+
