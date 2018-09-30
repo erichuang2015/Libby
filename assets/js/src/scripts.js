@@ -1,18 +1,17 @@
-(function ($, root, undefined) {
-	
-	$(function () { // DOM ready, take it away
 
-		$('.nav-button').click(function() {
-			if ($('.header').hasClass('open') === false) {
-				$('.header').addClass('open');
-				$('.header').removeClass('closed');
-			} else {
-				$('.header').addClass('closed');
-				$('.header').removeClass('open');
-			}
-		});
-		
-	}); // DOM ready
-	
-})(jQuery, this);
+const toggleNavBtn = document.getElementById('toggle-nav');
+const siteHeader = document.getElementById('header');
+
+function toggleNav(e) {
+	siteHeader.classList.toggle('closed');
+	siteHeader.classList.toggle('open');
+	console.log(e.target);
+};
+
+if (toggleNavBtn) {
+	toggleNavBtn.addEventListener('click', toggleNav, false);
+}
+
+
+
 

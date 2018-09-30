@@ -15,12 +15,12 @@
 	<body <?php body_class(); ?>>
 		<div class="wrapper">
 
-			<header id="header" class="header">
+			<header id="header" class="header closed">
 				<div class="header-container relative">
 					<div class="brand">
-						<h1 class="site-title"><?php
-						echo '<a href="'. home_url() .'">'. get_bloginfo() .'</a>';
-						?></h1>
+						<h1 class="site-title">
+							<a href="<?php echo home_url(); ?>"><?php echo get_bloginfo(); ?></a>
+						</h1>
 					</div>
 					<nav class="nav header-nav" role="navigation">
 						<?php custom_nav() ?>

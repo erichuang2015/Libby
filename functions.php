@@ -118,10 +118,10 @@ function get_js($file) {
 }
 
 // Load scripts (header.php)
-function custom_header_scripts() {
+function custom_scripts() {
 	if ($GLOBALS['pagenow'] != 'wp-login.php' && !is_admin()) {
 		wp_register_script('modernizr', get_js('lib/modernizr-2.7.1.min.js'), array(), '2.7.1'); // Modernizr
-		wp_register_script('index', get_js('scripts.min.js'), array('modernizr'), '1.0.0');
+		wp_register_script('index', get_js('scripts.min.js'), array('modernizr'), '1.0.0', true);
 		wp_enqueue_script('index');
 	}
 }
@@ -246,7 +246,7 @@ function custom_gravatar ($avatar_defaults) {
 \*------------------------------------*/
 
 // Add Actions
-add_action('init', 'custom_header_scripts'); // Add Custom Scripts to wp_head
+add_action('init', 'custom_scripts'); // Add Custom Scripts to wp_head
 add_action('wp_enqueue_scripts', 'custom_styles'); // Add Theme Stylesheet
 add_action('init', 'register_menu'); // Add HTML5 Blank Menu
 

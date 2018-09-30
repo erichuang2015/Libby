@@ -146,7 +146,7 @@
 		"oAP": "/assets/js/scripts.min.js",
 		"oF": 2,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"/assets/scss/_base.scss": {
 		"aP": 1,
