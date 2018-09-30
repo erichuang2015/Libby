@@ -9,10 +9,6 @@
 	background: black;
 	color: white;
 	transition: transform .25s ease;
-	&.stuck,
-	&.open {
-		position: fixed;
-	}
 }
 
 .brand {
@@ -98,7 +94,8 @@
 .cssanimations {
 	.header .header-nav {
 		animation-name: nav-in;
-		animation-duration: .25s;
+		animation-duration: .22s;
+		animation-timing-function: $easeInOutQuad;
 		animation-fill-mode: forwards;
 	}
 	.header.closed .header-nav {

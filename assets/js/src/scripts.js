@@ -7,7 +7,7 @@
 				$('.header').addClass('open');
 				$('.header').removeClass('closed');
 			} else {
-				// $('.header').addClass('closed');
+				$('.header').addClass('closed');
 				$('.header').removeClass('open');
 			}
 		});

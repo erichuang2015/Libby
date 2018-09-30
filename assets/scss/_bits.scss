@@ -28,6 +28,9 @@ $xl: 1220px;
 	}
 }
 
+// Easing
+$easeInOutQuad: cubic-bezier(0.46, 0.03, 0.52, 0.96);
+
 // Mixins
 @mixin gutter($x) {
 	.contain {

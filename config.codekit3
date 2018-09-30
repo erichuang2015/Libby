@@ -121,30 +121,30 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/assets/js/min/scripts.min.js": {
+	"/assets/js/scripts.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/assets/js/min/min/scripts.min.min.js",
+		"oAP": "/assets/js/min/scripts.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/assets/js/min/scripts.min.js.map": {
+	"/assets/js/scripts.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/assets/js/min/scripts.min.js.map",
+		"oAP": "/assets/js/scripts.min.js.map",
 		"oF": 0
 		},
-	"/assets/js/scripts.js": {
+	"/assets/js/src/scripts.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/assets/js/min/scripts.min.js",
-		"oF": 0,
+		"oAP": "/assets/js/scripts.min.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 0
 		},
