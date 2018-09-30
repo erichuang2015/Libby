@@ -35,12 +35,45 @@
 	cursor: pointer;
 	background: black;
 	& > div {
+		position: relative;
 		width: 100%;
 		height: 1px;
 		background: white;
 		pointer-events: none;
+		transform: none;
+		transform-origin: center;
+		transition: all .2s $easeInOutQuad;
+		&:last-child {
+			top: -1px;
+		}
+	}
+	
+	&.nav-open > div {
+		&:first-child {
+			transform: translateY(7px) rotate(45deg);
+		}
+		&:nth-child(2) {
+			transform: scaleX(0);
+		}
+		&:last-child {
+			transform: translateY(-7px) rotate(135deg);
+		}
+	}
+	&.animating > div {
+		&:first-child {
+			transform: translateY(7px);
+		}
+		&:nth-child(2) {
+			transform: scaleX(1);
+		}
+		&:last-child {
+			transform: translateY(-7px);
+		}
 	}
 }
+
+
+
 
 // Nav
 .nav-list {
@@ -69,6 +102,7 @@
 	}
 	.top-level-nav > a {
 		font-size: 1.5em;
+		border-bottom: solid 1px $color_1;
 	}
 	.sub-nav a {
 		font-size: 1.125em;

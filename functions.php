@@ -117,7 +117,7 @@ function get_js($file) {
 	return get_template_directory_uri() . '/assets/js/' . $file;
 }
 
-// Load scripts (header.php)
+// Load scripts
 function custom_scripts() {
 	if ($GLOBALS['pagenow'] != 'wp-login.php' && !is_admin()) {
 		wp_register_script('modernizr', get_js('lib/modernizr-2.7.1.min.js'), array(), '2.7.1'); // Modernizr
